@@ -65,7 +65,7 @@ jobs:
           else
               yarn build
               npm install -g serve
-              serve -s dist -l 8080 &
+              serve -s dist -l 3000 &
               yarn wait-on-prod
               yarn e2e --spec "${{ matrix.test_spec }}"
           fi
