@@ -26,7 +26,7 @@ name: My GitHub Workflow
 
 jobs:
   yml-md-style:
-    uses: QubitPi/github-actions-workflows/.github/workflows/yml-and-md-style-checks.yml@master
+    uses: paion-data/github-actions-workflows/.github/workflows/yml-and-md-style-checks.yml@master
 ```
 
 ### Cypress E2E Tests
@@ -77,7 +77,7 @@ The example below is a very simple setup:
    
    jobs:
      e2e-tests:
-       uses: QubitPi/github-actions-workflows/.github/workflows/cypress-e2e-tests.yml@master
+       uses: paion-data/github-actions-workflows/.github/workflows/cypress-e2e-tests.yml@master
    ```
 
 License
